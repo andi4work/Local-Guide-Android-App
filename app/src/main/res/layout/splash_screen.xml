@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <TextView
+        android:id="@+id/tvVersionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/version"
+        android:drawableLeft="@drawable/ic_version"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/logo_taiwan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/taiwan_logo" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_taiwan"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/ivSplashLogo"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/logo_taiwan"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/app_name"
+
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvGreetings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:gravity="center"
+        android:text="@string/greetings_of_the_day"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvInternetDetector"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/logoOrange"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Check Internet connection and refresh page"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivRefresh"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/icon_refresh"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivRefresh"
+        android:layout_alignStart="@+id/ivRefresh"
+        android:layout_alignLeft="@+id/ivRefresh"
+        android:layout_alignEnd="@+id/ivRefresh"
+        android:layout_alignRight="@+id/ivRefresh"
+        android:gravity="center"
+        android:text="refresh"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/layout_bg"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/tvGreetings"
+        android:paddingRight="5dp"
+        android:layout_above="@+id/tvInternetDetector"
+        android:text="@string/local_guide_taiwan_2020"
+        android:textColor="@color/colorPrimary"
+        />
+
+</RelativeLayout>

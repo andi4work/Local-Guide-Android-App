@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#121212</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_shade">#e5e5e5</color>
+    <color name="default_bg">#FAFAFA</color>
+    <color name="taiwan_flag_blue">#0B0095</color>
+    <color name="taiwan_flag_red">#FE0000</color>
+
+
+    <color name="background">#c1c1c1</color>
+    <color name="text_unselected">#2095f2</color>
+    <color name="header_background">@color/background</color>
+    <color name="profile_completed">#a8c8fe</color>
+
+
+    <!-- Screens background color-->
+    <color name="logoBlue">#2095f2</color>
+    <color name="logoGreen">#4baf4f</color>
+    <color name="logoOrange">#ff5521</color>
+    <color name="logoYellow">#fbbc05</color>
+    <color name="tab_unselected">#B3C0D5</color>
+    <color name="bold_username">#4a4a4a</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">@color/colorPrimary</color>
+    <color name="dot_dark_screen2">@color/colorPrimary</color>
+    <color name="dot_dark_screen3">@color/colorPrimary</color>
+    <color name="dot_dark_screen4">@color/colorPrimary</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+    <integer-array name="gplus_colors">
+        <item>@color/logoGreen</item>
+        <item>@color/logoBlue</item>
+        <item>@color/logoYellow</item>
+        <item>@color/logoOrange</item>
+    </integer-array>
+
+</resources>
+
+

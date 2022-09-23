@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/ivLocation"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/profile"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/location_show" />
+
+    <FrameLayout
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivProfilePic"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:src="@drawable/girl_sample_picture" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:background="#60012b73">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivCameraChangeProfilePic"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:src="@drawable/camera_icon" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ivEditProfile"
+        android:layout_width="48dp"
+        android:background="@drawable/round_corner_background"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/profile"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/edit" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ivEditProfile"
+        android:layout_alignLeft="@+id/ivLocation"
+        android:layout_alignRight="@+id/ivEditProfile"
+        android:layout_alignStart="@+id/ivLocation"
+        android:layout_below="@+id/profile"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="@string/title_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/tvUserMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUserName"
+        android:layout_toEndOf="@+id/ivLocation"
+        android:layout_toLeftOf="@+id/ivEditProfile"
+        android:layout_toRightOf="@+id/ivLocation"
+        android:layout_toStartOf="@+id/ivEditProfile"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/mobile_number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/tvUserMobileNumber"
+        android:layout_marginTop="10dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/tvProgressOne"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="firstFrame" />
+
+        <TextView
+            android:id="@+id/tvProgressTwo"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="second frame" />
+
+        <TextView
+            android:id="@+id/tvProgressThird"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="second frame" />
+
+
+        <TextView
+            android:id="@+id/tvProgressForth"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="second frame" />
+    </LinearLayout>
+</RelativeLayout>

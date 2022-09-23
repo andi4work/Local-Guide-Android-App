@@ -1,0 +1,40 @@
+Applications Memory Usage (kB):
+Uptime: 501740 Realtime: 501740
+
+** MEMINFO in pid 1697 [com.listoit.listo] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native     4624      732     4596    78776     8526     1225
+       Dalvik    34332     4544    34160    32884    27672     5212
+       Cursor        0        0        0                           
+       Ashmem        0        0        0                           
+    Other dev        4       28        0                           
+     .so mmap     3007     1988      316                           
+    .jar mmap        0        0        0                           
+    .apk mmap      363        0        0                           
+    .ttf mmap       91        0        0                           
+    .dex mmap     5416        0       60                           
+   Other mmap      247       24      180                           
+      Unknown      392       12      392                           
+        TOTAL    48476     7328    39704   111660    36198     6437
+ 
+ Objects
+               Views:      163         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        4        AssetManagers:        4
+       Local Binders:       32        Proxy Binders:       27
+    Death Recipients:        0
+     OpenSSL Sockets:       12
+ 
+ SQL
+         MEMORY_USED:      215
+  PAGECACHE_OVERFLOW:       95          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       84            205     248/161/25  /data/data/com.listoit.listo/databases/google_app_measurement.db
+ 
+ Asset Allocations
+    zip:/data/app/com.listoit.listo-1.apk:/assets/fonts/RobotoCondensed-Bold.ttf: 124K
+    zip:/data/app/com.listoit.listo-1.apk:/assets/fonts/RobotoCondensed-Bold.ttf: 124K

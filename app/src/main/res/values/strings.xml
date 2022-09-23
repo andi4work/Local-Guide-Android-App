@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Local Guide</string>
+    <string name="hint_save">SAVE</string>
+
+    //ads -TESTING
+    <string name="BANNER_AD_UNIT_ID_ONE" translatable="false">ca-app-pub-2954547390793092/5718033960</string>
+    <string name="BANNER_AD_UNIT_ID_THREE" translatable="false"> ca-app-pub-2954547390793092/4202444761</string>
+    <string name="BANNER_AD_UNIT_ID_TWO" translatable="false">ca-app-pub-2954547390793092/7194767168</string>
+    <string name="FULL_SCREEN_AD_UNIT_ID" translatable="false">ca-app-pub-2954547390793092/8671500369</string>
+
+    //ads -PRODUCTION
+
+
+    <string name="action_logout">Logout</string>
+    <string name="hint_user_name">  User name</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone_number">Phone number</string>
+    <string name="hint_date_picker">Date of birth</string>
+    <string name="hint_promo_code">Promo code</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_login">LOGIN</string>
+    <string name="hint_register">REGISTER</string>
+    <string name="hint_forget_password">Forget password?</string>
+    <string name="hint_new_to_listo" translatable="false">New to Listo?</string>
+    <string name="hint_get_password">Get password</string>
+    <string name="hint_back_to_login" translatable="false">Back to Login</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_emergency_contact">Emergency Contact Number</string>
+    //INTRO SCREEN STRINGS
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    //DRAWER
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+    <string name="description" translatable="false">We are team of entrepreneurs who have vast experience of more than 20 years in IT industry, with countless successful projects with varied technology exposure / experiences.\nThe team has provided excellent solutions always ahead of time and has taken the user experience to different next levels.</string>
+    <string name="help_title_emergency">HELP</string>
+    <string name="help_des_emergency">Need Immediate help</string>
+    <string name="alert">Alert</string>
+    <string name="medical_title_emergency">MEDICAL</string>
+    <string name="medical_des_emergency">Need Medical help</string>
+    <string name="police_emergency">Police</string>
+    <string name="family_emergency" translatable="false">Family</string>
+    <string name="family_friend_emergency" translatable="false">Family Friend</string>
+    <string name="ambulance_emergency" translatable="false">Ambulance</string>
+    <string name="emergency_footer" translatable="false">EMERGENCY</string>
+    <string name="eaten_footer" translatable="false">EATEN</string>
+    <string name="commute_footer" translatable="false">COMMUTE</string>
+    <string name="field_resource_tracker_footer" translatable="false">FRT</string>
+    <string name="cargo_footer" translatable="false">CARGO</string>
+    <string name="gated_comm_footer" translatable="false">GATED COMM</string>
+    <string name="loading_contacts" translatable="false">Loading contacts for the 1st time\n It will take lessthan 1 minute time</string>
+    <string name="sample_text" translatable="false">SAMPLE</string>
+    <string name="people_header">Park</string>
+    <string name="professional_header">Experts</string>
+    <string name="service_header">Service</string>
+    <string name="property_header">Property</string>
+    <string name="business_header">Business</string>
+    <string name="user_name_contact">User name</string>
+    <string name="title_name" translatable="false">Listo user</string>
+    <string name="grid_item_title" translatable="false">Chandu</string>
+    <string name="distance">5 Kms</string>
+    <string name="title_company" translatable="false">MaximoApps Inc</string>
+    <string name="date_blocked" translatable="false">Date Blocked</string>
+    <string name="details_title">Details</string>
+    <string name="description_title">Description</string>
+    <string name="expiry_date" translatable="false">Offer Expries on : 16/03/2017</string>
+    <string name="about_quote" translatable="false">Pay subscription few to Listo IT Solutions Pvt Ltd</string>
+    <string name="date_and_time" translatable="false">16/03/2017 15:07:16</string>
+    <string name="date_saved" translatable="false">Saved on</string>
+    <string name="validity_ends_on" translatable="false">Validity ends on</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="points" translatable="false">Points</string>
+    <string name="amount" translatable="false">Amount</string>
+    <string name="menu_counter" translatable="false">12</string>
+    <string name="change_password" translatable="false">Change Password</string>
+    <string name="current_password" translatable="false">current password</string>
+    <string name="new_password" translatable="false">new password</string>
+    <string name="confirm_new_password" translatable="false">confirm new password</string>
+    <string name="verify_email" translatable="false">Verify Email</string>
+    <string name="notifications" translatable="false">Notifications</string>
+    <string name="offers_and_promotions" translatable="false">Offers and Promotions</string>
+    <string name="nearby_friends" translatable="false">Nearby Friends</string>
+    <string name="meeting_schudles" translatable="false">Meeting Schudles</string>
+    <string name="public_chat" translatable="false">Public Chat</string>
+    <string name="public_meetup" translatable="false">Public Meetup</string>
+    <string name="amount_" translatable="false">Rs.0/-</string>
+    <string name="pay" translatable="false">Pay</string>
+    <string name="benefits" translatable="false">BENEFITS</string>
+    <string name="mobile_number">mobile number</string>
+    <string name="rating"> Rating :</string>
+    <string name="address_title">Address :</string>
+    <string name="address" translatable="false">H.No.32, 1st Main, Green Park Layout, Dooda Banasawadi,Bangalore 560043</string>
+    <string name="distance_title">Distance :</string>
+    <string name="distance_in_kms" translatable="false">4.2 Kms</string>
+    <string name="contact_title" translatable="false">Contact :</string>
+    <string name="review_title" translatable="false">Reviews :</string>
+    <string name="contact_number" translatable="false">+886 0928316907</string>
+    <string name="reviews" translatable="false">click here for reviews</string>
+    <string name="greetings_of_the_day" translatable="false">Greetings</string>
+    <string name="version" translatable="false">v 0.0.1</string>
+    <string name="name_title">Name</string>
+    <string name="date_" translatable="false">23/03/2017</string>
+    <string name="start_" translatable="false">START</string>
+    <string name="visit" translatable="false">VISIT</string>
+    <string name="report" translatable="false">REPORT</string>
+    <string name="home">HOME</string>
+    <string name="local_guide_taiwan_2020" translatable="false">© Local Guide, Taiwan - 2020</string>
+
+
+    <string name="car_dealer" translatable="false">Car Dealer</string>
+    <string name="dentist" translatable="false">Dentist</string>
+    <string name="doctor" translatable="false">Doctor</string>
+    <string name="lawyer" translatable="false">Lawyer</string>
+    <string name="physiotherapist" translatable="false">Lawyer</string>
+</resources>

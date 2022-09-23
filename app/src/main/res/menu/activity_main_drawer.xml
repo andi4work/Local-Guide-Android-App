@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/nav_my_subscriptions"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/my_subscriptions"
+            android:title="My Subscriptions"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_history_and_reports"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/history_and_reports"
+            android:title="History / Reports" />
+        <item
+            android:id="@+id/nav_saved_locations"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/saved_locations"
+            android:title="Saved Locations"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_blocked_list"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/blocked_list"
+            android:title="Blocked List"
+            app:actionLayout="@layout/menu_counter" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_try_premium"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/try_premium"
+            android:title="Try Premium" />
+        <item
+            android:id="@+id/nav_your_points"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/your_points"
+            android:title="Earned Points"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_offer_zone"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/offer_zone"
+            android:title="Offer Zone"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/notifocations"
+            android:title="Notifications"
+            app:actionLayout="@layout/menu_counter" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_legal"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/legal"
+            android:title="Legal" />
+        <item
+            android:id="@+id/nav_about_listo"
+            android:width="24dp"
+            android:height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:icon="@drawable/about_listo"
+            android:title="About Listo" />
+        <item
+            android:width="24dp"
+            android:height="24dp"
+            android:title="" />
+        <item
+            android:width="24dp"
+            android:height="24dp"
+            android:title="" />
+    </group>
+
+</menu>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorPrimaryDark">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:id="@+id/llPeople"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp">
+
+                    <!--       <TextView
+                               android:id="@+id/titlePeople"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:gravity="center"
+                               android:scaleX="1.5"
+                               android:scaleY="1.5"
+                               android:text="@string/people_header"
+                               android:textColor="@color/logoOrange"
+                               android:textSize="10dp" />-->
+                    <com.skydoves.powerspinner.PowerSpinnerView
+                        android:id="@+id/titlePeople"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:hint="Park"
+                        android:padding="10dp"
+                        android:textColor="@color/logoBlue"
+                        android:textColorHint="@color/logoBlue"
+                        app:spinner_arrow_gravity="end"
+                        app:spinner_arrow_padding="8dp"
+                        app:spinner_divider_color="@color/colorPrimaryDark"
+                        app:spinner_divider_show="true"
+                        app:spinner_divider_size="0.4dp"
+                        app:spinner_popup_animation="dropdown"
+                        app:spinner_popup_background="@color/white"
+                        app:spinner_popup_elevation="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llprofessional"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <!--     <TextView
+                             android:id="@+id/titleProfessional"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:gravity="center"
+                             android:scaleX="1.5"
+                             android:scaleY="1.5"
+                             android:text="@string/professional_header"
+                             android:textColor="@color/logoBlue"
+                             android:textSize="12dp" />-->
+
+                    <com.skydoves.powerspinner.PowerSpinnerView
+                        android:id="@+id/titleProfessional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:hint="Professionals"
+                        android:padding="10dp"
+                        android:textColor="@color/logoBlue"
+                        android:textColorHint="@color/logoBlue"
+                        app:spinner_arrow_gravity="end"
+                        app:spinner_arrow_padding="8dp"
+                        app:spinner_divider_color="@color/colorPrimaryDark"
+                        app:spinner_divider_show="true"
+                        app:spinner_divider_size="0.4dp"
+                        app:spinner_item_array="@array/professionals"
+                        app:spinner_popup_animation="dropdown"
+                        app:spinner_popup_background="@color/white"
+                        app:spinner_popup_elevation="14dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llService"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <!--        <TextView
+                                android:id="@+id/titleService"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:scaleX="1.5"
+                                android:scaleY="1.5"
+                                android:text="@string/service_header"
+                                android:textColor="@color/logoBlue"
+                                android:textSize="10dp" />-->
+
+                    <com.skydoves.powerspinner.PowerSpinnerView
+                        android:id="@+id/titleService"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:hint="Service"
+                        android:padding="10dp"
+                        android:textColor="@color/logoBlue"
+                        android:textColorHint="@color/logoBlue"
+                        app:spinner_arrow_gravity="end"
+                        app:spinner_arrow_padding="8dp"
+                        app:spinner_divider_color="@color/colorPrimaryDark"
+                        app:spinner_divider_show="true"
+                        app:spinner_divider_size="0.4dp"
+                        app:spinner_item_array="@array/services"
+                        app:spinner_popup_animation="dropdown"
+                        app:spinner_popup_background="@color/white"
+                        app:spinner_popup_elevation="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llProperty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <!--           <TextView
+                                   android:id="@+id/titleProperty"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:gravity="center"
+                                   android:scaleX="1.5"
+                                   android:scaleY="1.5"
+                                   android:text="@string/property_header"
+                                   android:textColor="@color/logoBlue"
+                                   android:textSize="10dp" />-->
+
+                    <com.skydoves.powerspinner.PowerSpinnerView
+                        android:id="@+id/titleProperty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:hint="Property"
+                        android:padding="10dp"
+                        android:textColor="@color/logoBlue"
+                        android:textColorHint="@color/logoBlue"
+                        app:spinner_arrow_gravity="end"
+                        app:spinner_arrow_padding="8dp"
+                        app:spinner_divider_color="@color/colorPrimaryDark"
+                        app:spinner_divider_show="true"
+                        app:spinner_divider_size="0.4dp"
+                        app:spinner_item_array="@array/properties"
+                        app:spinner_popup_animation="dropdown"
+                        app:spinner_popup_background="@color/white"
+                        app:spinner_popup_elevation="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llBusiness"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+
+                    <!--      <TextView
+                              android:id="@+id/titleBusiness"
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:gravity="center"
+                              android:scaleX="1.5"
+                              android:scaleY="1.5"
+                              android:text="@string/business_header"
+                              android:textColor="@color/logoBlue"
+                              android:textSize="10dp" />-->
+                    <com.skydoves.powerspinner.PowerSpinnerView
+                        android:id="@+id/titleBusiness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:hint="Business"
+                        android:padding="10dp"
+                        android:textColor="@color/logoBlue"
+                        android:textColorHint="@color/logoBlue"
+                        app:spinner_arrow_gravity="end"
+                        app:spinner_arrow_padding="8dp"
+                        app:spinner_divider_color="@color/colorPrimaryDark"
+                        app:spinner_divider_show="true"
+                        app:spinner_divider_size="0.4dp"
+                        app:spinner_item_array="@array/business"
+                        app:spinner_popup_animation="dropdown"
+                        app:spinner_popup_background="@color/white"
+                        app:spinner_popup_elevation="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

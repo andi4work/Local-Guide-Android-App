@@ -1,0 +1,188 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:background="@color/header_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/llEmergency"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:background="@color/logoOrange"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/ivEmergency"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless" />
+
+            <TextView
+                android:id="@+id/tvEmergency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/emergency_footer"
+                android:textColor="@color/white"
+                android:textSize="7dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llEaten"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/ivEaten"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvEaten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/eaten_footer"
+                android:textColor="@color/colorPrimary"
+                android:textSize="7dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCommute"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/ivCommute"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvCommute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/commute_footer"
+                android:textColor="@color/colorPrimary"
+                android:textSize="7dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llFRT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/ivFrt"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvFrt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/field_resource_tracker_footer"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="7dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCargo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+
+
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/ivCargo"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvCargo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/cargo_footer"
+                android:textColor="@color/colorPrimary"
+                android:textSize="7dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llGatedComm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/ivGatedComm"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvGatedComm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gated_comm_footer"
+                android:textColor="@color/colorPrimary"
+                android:textSize="7dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

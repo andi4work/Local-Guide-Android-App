@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "374219079672",
+    "firebase_url": "https://local-gudie-map-navigation.firebaseio.com",
+    "project_id": "local-gudie-map-navigation",
+    "storage_bucket": "local-gudie-map-navigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374219079672:android:90da271f86a6e852",
+        "android_client_info": {
+          "package_name": "www.maximoapps.in.localgudie_mapnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374219079672-bptnr7a2qb3935b28e9qsd8oorbdngl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0m0IRRIRebiJmORS-4_Iz61bsga7LONw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

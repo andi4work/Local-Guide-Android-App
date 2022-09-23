@@ -1,0 +1,215 @@
+TASK com.listoit.listo id=6
+  ACTIVITY com.listoit.listo/.ui.activity.NearByActivity 53366138 pid=1697
+    Local FragmentActivity 533cf2cc State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 533cf438:
+      #0: FragmentNearBy{532cde58 #0 id=0x7f10008d android:switcher:2131755149:0}
+        mFragmentId=#7f10008d mContainerId=#7f10008d mTag=android:switcher:2131755149:0
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=true
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{533cf438 in HostCallbacks{533cf41c}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@533cf41c
+        mContainer=android.support.v4.view.ViewPager{533b7b88 VFED.... ........ 0,160-768,1134 #7f10008d app:id/viewpager}
+        mView=android.widget.RelativeLayout{53396ac4 V.E..... ........ 0,0-768,974 #7f1000b4 app:id/fragment_near_byy}
+        mInnerView=android.widget.RelativeLayout{53396ac4 V.E..... ........ 0,0-768,974 #7f1000b4 app:id/fragment_near_byy}
+        Child FragmentManager{532ba9a4 in FragmentNearBy{532cde58}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@533cf41c
+            mContainer=android.support.v4.app.Fragment$2@53396934
+            mParent=FragmentNearBy{532cde58 #0 id=0x7f10008d android:switcher:2131755149:0}
+            mCurState=5 mStateSaved=false mDestroyed=false
+      #1: FragmentFriends{532ce3f4 #1 id=0x7f10008d android:switcher:2131755149:1}
+        mFragmentId=#7f10008d mContainerId=#7f10008d mTag=android:switcher:2131755149:1
+        mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=false
+        mFragmentManager=FragmentManager{533cf438 in HostCallbacks{533cf41c}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@533cf41c
+        mContainer=android.support.v4.view.ViewPager{533b7b88 VFED.... ........ 0,160-768,1134 #7f10008d app:id/viewpager}
+        mView=android.widget.FrameLayout{532cd5f0 V.E..... ........ 768,0-1536,974}
+        mInnerView=android.widget.FrameLayout{532cd5f0 V.E..... ........ 768,0-1536,974}
+        Loader Manager:
+          Active Loaders:
+            #0: LoaderInfo{533ccf48 #0 : CursorLoader{533cdfbc}}
+              mId=0 mArgs=null
+              mCallbacks=FragmentFriends{532ce3f4 #1 id=0x7f10008d android:switcher:2131755149:1}
+              mLoader=CursorLoader{533cdfbc id=0}
+                mId=0 mListener=LoaderInfo{533ccf48 #0 : CursorLoader{533cdfbc}}
+                mStarted=true mContentChanged=false mProcessingChange=false
+                mUri=content://com.android.contacts/contacts
+                mProjection=[_id, display_name]
+                mSelection=null
+                mSelectionArgs=null
+                mSortOrder=null
+                mCursor=android.content.ContentResolver$CursorWrapperInner@532cc9e4
+                mContentChanged=false
+              mHaveData=true  mDeliveredData=true
+              mData=android.content.ContentResolver$CursorWrapperInner@532cc9e4
+              mStarted=true mReportNextStart=false mDestroyed=false
+              mRetaining=false mRetainingStarted=false mListenerRegistered=true
+        Child FragmentManager{532cd588 in FragmentFriends{532ce3f4}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@533cf41c
+            mContainer=android.support.v4.app.Fragment$2@532cd5d0
+            mParent=FragmentFriends{532ce3f4 #1 id=0x7f10008d android:switcher:2131755149:1}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: FragmentNearBy{532cde58 #0 id=0x7f10008d android:switcher:2131755149:0}
+      #1: FragmentFriends{532ce3f4 #1 id=0x7f10008d android:switcher:2131755149:1}
+    Fragments Created Menus:
+      #0: FragmentNearBy{532cde58 #0 id=0x7f10008d android:switcher:2131755149:0}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@533cf41c
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@533cf41c
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{5339f564 V.E..... ... 0,0-768,1184}
+        android.widget.LinearLayout{5339f800 V.E..... ... 0,0-768,1184}
+          android.view.ViewStub{53218e4c G.E..... ... 0,0-0,0 #1020354}
+          android.widget.FrameLayout{53218f50 V.E..... ... 0,50-768,1184}
+            android.support.v7.widget.FitWindowsLinearLayout{533c3a54 V.E..... ... 0,0-768,1134 #7f100069 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{533c3c04 G.E..... ... 0,0-0,0 #7f10006a app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{533ad5d8 V.ED.... ... 0,0-768,1134 #1020002 android:id/content}
+                android.widget.LinearLayout{5339fe1c V.E..... ... 0,0-768,1134}
+                  android.support.v7.widget.Toolbar{533b4270 V.E..... ... 0,0-768,64 #7f10007f app:id/toolbar}
+                    android.support.v7.widget.AppCompatTextView{533d689c V.ED.... ... 144,8-415,56}
+                    android.support.v7.widget.AppCompatImageButton{533dc070 VFED..C. ... 0,0-112,64}
+                    android.support.v7.widget.ActionMenuView{533f0f7c V.E..... ... 592,0-768,64}
+                      android.support.v7.widget.SearchView{53900b08 VFE..... ... 0,0-96,64 #7f100122 app:id/action_search}
+                        android.widget.LinearLayout{53900f30 V.E..... ... 0,0-96,64 #7f100071 app:id/search_bar}
+                          android.support.v7.widget.AppCompatTextView{539014ac G.ED.... ... 0,0-0,0 #7f100072 app:id/search_badge}
+                          android.support.v7.widget.AppCompatImageView{53901b8c VFED..C. ... 0,0-96,64 #7f100073 app:id/search_button}
+                          android.widget.LinearLayout{53967cd4 G.E..... ... 0,0-0,0 #7f100074 app:id/search_edit_frame}
+                            android.support.v7.widget.AppCompatImageView{53967e64 G.ED.... ... 0,0-0,0 #7f100075 app:id/search_mag_icon}
+                            android.widget.LinearLayout{53967fdc V.E..... ... 0,0-0,0 #7f100076 app:id/search_plate}
+                              android.support.v7.widget.SearchView$SearchAutoComplete{539681d8 VFED..CL ... 0,0-0,0 #7f100077 app:id/search_src_text}
+                              android.support.v7.widget.AppCompatImageView{53969190 VFED..C. ... 0,0-0,0 #7f100078 app:id/search_close_btn}
+                            android.widget.LinearLayout{53969784 G.E..... ... 0,0-0,0 #7f100079 app:id/submit_area}
+                              android.support.v7.widget.AppCompatImageView{53969914 GFED..C. ... 0,0-0,0 #7f10007a app:id/search_go_btn}
+                              android.support.v7.widget.AppCompatImageView{53969f08 GFED..C. ... 0,0-0,0 #7f10007b app:id/search_voice_btn}
+                      android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton{533913fc VFED..CL ... 96,0-176,64}
+                  android.support.design.widget.TabLayout{533c54d4 VFED.... ... 0,64-768,160 #7f10008c app:id/tabs}
+                    android.support.design.widget.TabLayout$SlidingTabStrip{532c3f44 V.ED.... ... 0,0-768,96}
+                      android.support.design.widget.TabLayout$TabView{533d7544 VFE...C. .S. 0,0-256,96}
+                        android.support.v7.widget.AppCompatImageView{533df114 G.ED.... .S. 0,0-0,0}
+                        android.support.v7.widget.AppCompatTextView{533e1f94 V.ED.... .S. 72,29-184,67}
+                      android.support.design.widget.TabLayout$TabView{533d8038 VFE...C. ... 256,0-512,96}
+                        android.support.v7.widget.AppCompatImageView{5339d058 G.ED.... ... 0,0-0,0}
+                        android.support.v7.widget.AppCompatTextView{5339d164 V.ED.... ... 72,29-184,67}
+                      android.support.design.widget.TabLayout$TabView{5339d458 VFE...C. ... 512,0-768,96}
+                        android.support.v7.widget.AppCompatImageView{533b831c G.ED.... ... 0,0-0,0}
+                        android.support.v7.widget.AppCompatTextView{533b84bc V.ED.... ... 82,29-174,67}
+                  android.support.v4.view.ViewPager{533b7b88 VFED.... ... 0,160-768,1134 #7f10008d app:id/viewpager}
+                    android.widget.RelativeLayout{53396ac4 V.E..... ... 0,0-768,974 #7f1000b4 app:id/fragment_near_byy}
+                      android.widget.RelativeLayout{53396cf4 V.E..... ... 0,0-768,116 #7f1000b5 app:id/header}
+                        android.widget.LinearLayout{533d8f4c V.E..... ... 0,0-768,116 #7f1000b6 app:id/header_include}
+                          android.widget.LinearLayout{533d9690 V.E...C. ... 16,16-163,100 #7f1000c4 app:id/llPeople}
+                            android.support.v7.widget.AppCompatImageView{533cd7b8 V.ED.... ... 49,0-97,48 #7f1000c5 app:id/iconPeople}
+                            android.support.v7.widget.AppCompatTextView{533cdb04 V.ED.... ... 0,48-147,84 #7f1000c6 app:id/titlePeople}
+                          android.widget.LinearLayout{533e8fac V.E...C. ... 163,16-310,97 #7f1000c7 app:id/llprofessional}
+                            android.support.v7.widget.AppCompatImageView{533e9130 V.ED.... ... 49,0-97,48 #7f1000c8 app:id/iconProfessional}
+                            android.support.v7.widget.AppCompatTextView{533e9454 V.ED.... ... 0,48-147,81 #7f1000c9 app:id/titleProfessional}
+                          android.widget.LinearLayout{532c9024 V.E...C. ... 310,16-457,100 #7f1000ca app:id/llService}
+                            android.support.v7.widget.AppCompatImageView{532c91b4 V.ED.... ... 49,0-97,48 #7f1000cb app:id/iconService}
+                            android.support.v7.widget.AppCompatTextView{532c96e0 V.ED.... ... 0,48-147,84 #7f1000cc app:id/titleService}
+                          android.widget.LinearLayout{5320f8fc V.E...C. ... 457,16-604,100 #7f1000cd app:id/llProperty}
+                            android.support.v7.widget.AppCompatImageView{5320fa0c V.ED.... ... 49,0-97,48 #7f1000ce app:id/iconProperty}
+                            android.support.v7.widget.AppCompatTextView{5320fd30 V.ED.... ... 0,48-147,84 #7f1000cf app:id/titleProperty}
+                          android.widget.LinearLayout{5320ffd0 V.E...C. ... 604,16-752,100 #7f1000d0 app:id/llBusiness}
+                            android.support.v7.widget.AppCompatImageView{53210160 V.ED.... ... 50,0-98,48 #7f1000d1 app:id/iconBusiness}
+                            android.support.v7.widget.AppCompatTextView{533d953c V.ED.... ... 0,48-148,84 #7f1000d2 app:id/titleBusiness}
+                      android.widget.RelativeLayout{531fe018 V.E..... ... 0,116-768,869 #7f1000b7 app:id/rl}
+                        android.widget.GridView{533a6ef8 VFED.VC. F.. 10,10-758,743 #7f1000b9 app:id/gvNearBy}
+                          android.widget.RelativeLayout{533f1a64 V.E..... ... 0,-46-242,194 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{533d0940 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{539b2754 V.E..... ... 0,190-240,240}
+                              android.support.v7.widget.AppCompatTextView{539768c4 V.ED.... ... 10,0-240,28 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{53390bcc V.ED.... ... 10,28-240,50 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{533f04f4 V.E..... ... 252,-46-494,194 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{533d066c V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{533f1790 V.E..... ... 0,191-240,240}
+                              android.support.v7.widget.AppCompatTextView{532c4b34 V.ED.... ... 10,0-240,27 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{53392e5c V.ED.... ... 10,27-240,49 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{533b96dc V.E..... ... 504,-46-746,194 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{533c3970 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{533d4a70 V.E..... ... 0,190-240,240}
+                              android.support.v7.widget.AppCompatTextView{532ba474 V.ED.... ... 10,0-240,28 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{533c4ddc V.ED.... ... 10,28-240,50 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{53397100 V.E..... ... 0,204-242,444 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{533d2d10 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{533b19c8 V.E..... ... 0,190-240,240}
+                              android.support.v7.widget.AppCompatTextView{538c02a8 V.ED.... ... 10,0-240,28 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{538df960 V.ED.... ... 10,28-240,50 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{533cef78 V.E..... ... 252,204-494,444 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{539b4a84 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{533d489c V.E..... ... 0,191-240,240}
+                              android.support.v7.widget.AppCompatTextView{53392828 V.ED.... ... 10,0-240,27 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{533d926c V.ED.... ... 10,27-240,49 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{533c77b4 V.E..... ... 504,204-746,444 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{53976bec V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{533cd44c V.E..... ... 0,191-240,240}
+                              android.support.v7.widget.AppCompatTextView{533aadfc V.ED.... ... 10,0-240,27 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{5389a3b8 V.ED.... ... 10,27-240,49 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{533f07d0 V.E..... ... 0,454-242,694 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{53223298 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{53218c88 V.E..... ... 0,191-240,240}
+                              android.support.v7.widget.AppCompatTextView{531fe394 V.ED.... ... 10,0-240,27 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{53215f58 V.ED.... ... 10,27-240,49 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{533e28e8 V.E..... ... 252,454-494,694 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{532b7138 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{533f12c4 V.E..... ... 0,191-240,240}
+                              android.support.v7.widget.AppCompatTextView{531ec168 V.ED.... ... 10,0-240,27 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{533a0460 V.ED.... ... 10,27-240,49 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{533f0660 V.E..... ... 504,454-746,694 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{532c77a8 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{5396aafc V.E..... ... 0,190-240,240}
+                              android.support.v7.widget.AppCompatTextView{531ebbf0 V.ED.... ... 10,0-240,28 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{533a148c V.ED.... ... 10,28-240,50 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{539bf108 V.E..... ... 0,704-242,944 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{533b5a94 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{532c5628 V.E..... ... 0,191-240,240}
+                              android.support.v7.widget.AppCompatTextView{53973854 V.ED.... ... 10,0-240,27 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{5389df90 V.ED.... ... 10,27-240,49 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{53973b08 V.E..... ... 252,704-494,944 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{53215dc0 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{539918c4 V.E..... ... 0,190-240,240}
+                              android.support.v7.widget.AppCompatTextView{538bdc38 V.ED.... ... 10,0-240,28 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{538be9d8 V.ED.... ... 10,28-240,50 #7f1000c3 app:id/tvDistance}
+                          android.widget.RelativeLayout{539c1a1c V.E..... ... 504,704-746,944 #7f1000c0 app:id/grid_item}
+                            android.support.v7.widget.AppCompatImageView{539c1c78 V.ED.... ... 0,0-240,240 #7f1000c1 app:id/ivGridItemPhoto}
+                            android.widget.LinearLayout{5320b824 V.E..... ... 0,191-240,240}
+                              android.support.v7.widget.AppCompatTextView{532d3ed4 V.ED.... ... 10,0-240,27 #7f1000c2 app:id/tvGridItemTitle}
+                              android.support.v7.widget.AppCompatTextView{533b2c08 V.ED.... ... 10,27-240,49 #7f1000c3 app:id/tvDistance}
+                      android.widget.RelativeLayout{53212058 V.E..... ... 0,869-768,974 #7f1000b8 app:id/footer}
+                        android.widget.LinearLayout{53211e9c V.E...C. ... 0,0-768,105 #7f1000ba app:id/footer_include}
+                          android.widget.LinearLayout{533a43a8 V.E..... ... 16,16-138,89 #7f1000aa app:id/llEmergency}
+                            android.support.v7.widget.AppCompatButton{53218054 VFED..C. ... 37,0-85,48}
+                            android.support.v7.widget.AppCompatTextView{533f5648 V.ED.... ... 0,48-122,73}
+                          android.widget.LinearLayout{533c58c8 V.E..... ... 138,16-260,89 #7f1000ab app:id/llEaten}
+                            android.support.v7.widget.AppCompatButton{533c6b24 VFED..C. ... 37,0-85,48}
+                            android.support.v7.widget.AppCompatTextView{533e24b8 V.ED.... ... 0,48-122,73}
+                          android.widget.LinearLayout{533e21b0 V.E..... ... 260,16-383,89 #7f1000ac app:id/lCommute}
+                            android.support.v7.widget.AppCompatButton{533aa784 VFED..C. ... 37,0-85,48}
+                            android.support.v7.widget.AppCompatTextView{533d8828 V.ED.... ... 0,48-123,73}
+                          android.widget.LinearLayout{53217c30 V.E..... ... 383,16-506,89 #7f1000ad app:id/llMarketing}
+                            android.support.v7.widget.AppCompatButton{5321ade0 VFED..C. ... 37,0-85,48}
+                            android.support.v7.widget.AppCompatTextView{533a5330 V.ED.... ... 0,48-123,73}
+                          android.widget.LinearLayout{533ac1ac V.E..... ... 506,16-629,89 #7f1000ae app:id/llECargo}
+                            android.support.v7.widget.AppCompatButton{532c4958 VFED..C. ... 37,0-85,48}
+                            android.support.v7.widget.AppCompatTextView{533b68e0 V.ED.... ... 0,48-123,73}
+                          android.widget.LinearLayout{533b1424 V.E..... ... 629,16-752,89 #7f1000af app:id/llHome}
+                            android.support.v7.widget.AppCompatButton{53396760 VFED..C. ... 37,0-85,48}
+                            android.support.v7.widget.AppCompatTextView{533a22a8 V.ED.... ... 0,48-123,73}
+                    android.widget.FrameLayout{532cd5f0 V.E..... ... 768,0-1536,974}
+                      android.widget.LinearLayout{532cd790 G.E..... ... 0,0-0,0 #ff0002}
+                        android.widget.ProgressBar{532cd8fc V.ED.... ... 0,0-0,0}
+                      android.widget.FrameLayout{533c9a14 V.E..... ... 0,0-768,974 #ff0003}
+                        android.widget.TextView{533c9bb4 G.ED.... ... 0,0-0,0 #ff0001}
+                        android.widget.ListView{533c9e04 V.ED.VC. ... 0,0-768,974 #102000a android:id/list}
+                  android.support.v7.widget.AppCompatTextView{533c6de4 V.ED.... ... 0,1134-768,1134}
+        android.widget.RelativeLayout{533e8944 V.E..... ... 0,0-768,1184}
+          android.widget.ProgressBar{533a2488 I.ED.... ... 308,516-460,668}

@@ -1,0 +1,54 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:layout_margin="14dp"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="2dp">
+
+        <com.etsy.android.grid.util.DynamicHeightImageView
+            android:id="@+id/ivGridItemPhoto"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_preview" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/ivGridItemPhoto"
+            android:layout_alignRight="@+id/ivGridItemPhoto"
+            android:layout_alignBottom="@+id/ivGridItemPhoto"
+            android:background="#60000000"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <com.etsy.android.grid.util.DynamicHeightTextView
+                android:id="@+id/tvGridItemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/grid_item_title"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <com.etsy.android.grid.util.DynamicHeightTextView
+                android:id="@+id/tvDistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/distance"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

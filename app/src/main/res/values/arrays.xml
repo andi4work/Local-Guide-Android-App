@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="professionals">
+        <item>car_dealer</item>
+        <item>dentist</item>
+        <item>doctor</item>
+        <item>lawyer</item>
+        <item>physiotherapist</item>
+    </string-array>
+    <string-array name="services">
+        <item>atm</item>
+        <item>bank</item>
+        <item>bowling_alley</item>
+        <item>bus_station</item>
+        <item>car_rental</item>
+        <item>car_repair</item>
+        <item>car_wash</item>
+        <item>electrician</item>
+        <item>gas_station</item>
+        <item>library</item>
+        <item>movie_theater</item>
+        <item>night_club</item>
+        <item>painter</item>
+        <item>parking</item>
+        <item>plumber</item>
+        <item>police</item>
+        <item>post_office</item>
+        <item>spa</item>
+        <item>veterinary_care</item>
+    </string-array>
+    <string-array name="properties">
+        <item>park</item>
+        <item>real_estate_agency</item>
+        <item>stadium</item>
+    </string-array>
+    <string-array name="business">
+        <item>bakery</item>
+        <item>bar</item>
+        <item>beauty_salon</item>
+        <item>book_store</item>
+        <item>cafe</item>
+        <item>clothing_store</item>
+        <item>convenience_store</item>
+        <item>department_store</item>
+        <item>electronics_store</item>
+        <item>furniture_store</item>
+        <item>florist</item>
+        <item>gym</item>
+        <item>hair_care</item>
+        <item>hardware_store</item>
+        <item>home_goods_store</item>
+        <item>hospital</item>
+        <item>insurance_agency</item>
+        <item>jewelry_store</item>
+        <item>laundry</item>
+        <item>liquor_store</item>
+        <item>lodging</item>
+        <item>pet_store</item>
+        <item>pharmacy</item>
+        <item>restaurant</item>
+        <item>school</item>
+        <item>shoe_store</item>
+        <item>shopping_mall</item>
+        <item>travel_agency</item>
+    </string-array>
+</resources>

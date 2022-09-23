@@ -1,0 +1,37 @@
+Applications Memory Usage (kB):
+Uptime: 6527206 Realtime: 6527199
+
+** MEMINFO in pid 5399 [com.listoit.listo] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native        0        0        0     6144     6110       33
+       Dalvik    17442    13748    16696    23740    22455     1285
+        Stack       72        0       72                           
+       Cursor        0        0        0                           
+       Ashmem        0        0        0                           
+    Other dev        4       36        0                           
+     .so mmap     3277     3260     1492                           
+    .jar mmap        0        0        0                           
+    .apk mmap      342        0        0                           
+    .ttf mmap       49        0        0                           
+    .dex mmap     2253      524       80                           
+   Other mmap       39        8        8                           
+      Unknown     2753      292     2748                           
+        TOTAL    26231    17868    21096    29884    28565     1318
+ 
+ Objects
+               Views:       73         ViewRootImpl:        6
+         AppContexts:        5           Activities:        3
+              Assets:        4        AssetManagers:        4
+       Local Binders:       13        Proxy Binders:       27
+    Death Recipients:        1
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:       62
+ 
+ 
+ Asset Allocations
+    zip:/data/app/com.listoit.listo-1.apk:/assets/fonts/RobotoCondensed-Bold.ttf: 124K

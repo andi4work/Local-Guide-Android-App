@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/header_background"
+    android:orientation="horizontal"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:id="@+id/llFRT"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/ivFrt"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <TextView
+            android:id="@+id/tvFrt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="VERSHA"
+            android:textColor="@color/colorPrimary"
+            android:textSize="7dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llStart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/ivStart"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/start_"
+            android:textColor="@color/colorPrimary"
+            android:textSize="7dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llVisit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/ivVisit"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvVisit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/visit"
+            android:textColor="@color/colorPrimary"
+            android:textSize="7dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/ivNotifications"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/notifications"
+            android:textColor="@color/colorPrimary"
+            android:textSize="7dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llReport"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+
+
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/ivReport"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/report"
+            android:textColor="@color/colorPrimary"
+            android:textSize="7dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHome"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/home"
+            android:textColor="@color/colorPrimary"
+            android:textSize="7dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

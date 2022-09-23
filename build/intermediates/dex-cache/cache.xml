@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="A:\Projects Source Code\LocalGudie 1.0.2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="A:\Projects Source Code\LocalGudie 1.0.2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_835b2d87ec5bc791ec028c4c7782dcc4e372f8fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="A:\Projects Source Code\LocalGudie 1.0.2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c896e1ced644c46ef4b9d4eab7aea41f5dd4c92d">
+        <dex dex="A:\Projects Source Code\LocalGudie 1.0.2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_344307a59cd9ffef0a77eac72596b4c948d2c958\classes.dex" />
+    </item>
+
+</items>

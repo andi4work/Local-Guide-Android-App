@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.navigation.drawer.activity.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/icon_search"
+        android:orderInCategory="100"
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/action_legal"
+        android:orderInCategory="100"
+        android:title="Legal" />
+    <item
+        android:id="@+id/action_about_listo"
+        android:orderInCategory="100"
+        android:title="About Listo" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings" />
+    <item
+        android:orderInCategory="100"
+        android:title="Logout" />
+</menu>

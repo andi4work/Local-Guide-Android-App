@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "25.0.3"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "www.maximoapps.in.localgudie_mapnavigation"
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 2
+        versionName "0.0.2"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    /* configurations {
+         compile.exclude group: "org.apache.httpcomponents", module: "httpclient"
+         all*.exclude group: 'xpp3', module: 'xpp3'
+     }*/
+    buildTypes {
+        release {
+            //  minifyEnabled true
+            //  shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+}
+
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+    maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+}
+
+dependencies {
+
+    //compile fileTree(include: ['*.jar', '.aar'], dir: 'libs')
+    androidTestCompile('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // retrofit, gson
+
+    //INTRO
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.google.android.gms:play-services-maps:10.0.1'
+    implementation 'com.google.android.gms:play-services-analytics:10.0.1'
+    implementation 'com.google.android.gms:play-services-location:10.0.1'
+    implementation 'com.google.android.gms:play-services-places:10.0.1'
+    implementation 'com.google.firebase:firebase-config:10.0.1'
+    implementation 'com.google.android.gms:play-services:10.0.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    implementation 'com.github.paolorotolo:appintro:4.1.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.github.castorflex.smoothprogressbar:library:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.etsy.android.grid:library:1.0.5'
+    implementation "com.android.support:support-v4:+"
+    implementation 'com.squareup.picasso:picasso:2.3.2'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation "com.github.skydoves:powerspinner:1.1.0"
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+}
+apply plugin: 'com.google.gms.google-services'
